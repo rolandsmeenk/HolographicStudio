@@ -3,8 +3,6 @@
 This is the source code for my blog article "Build your own holographic studio with RoomAlive Toolkit"
 http://smeenk.com/build-your-own-holographic-studio/
 
-<iframe src="//www.youtube.com/embed/bH-HB9IGt7o" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
 # Building the application
 The project depends on the ProEnsembleCalibrationLib that is part of RoomAlive Toolkit. https://github.com/Kinect/RoomAliveToolkit Download and build that project first and update the reference to that library.
 Both this project and RoomAliveToolkit reference SharpDX libraries. Make sure the used libraries reference the same version of these libs to prevent conflicts.
@@ -55,21 +53,21 @@ Automatically rotates the camera .
 
 For each Kinect in the scene there will be a parameter with the index of the camera appended:
 
-###LiveDepth0#      
+###LiveDepth#      
 Toggles live depth updates.
 
 ###LiveColor#       
 Toggles live color updates.
 
 ###FilterDepth#   
-Toggles depth filtering
+Toggles depth filtering.
 
 ###SpatialSigma#
-The spatial sigma for depth filtering
+The spatial sigma for depth filtering.
 
 ###IntensitySigma#
-The intensity for depth filtering
+The intensity for depth filtering.
 
 ###DepthThreshold#
-Threshold for discarding triangles based on steepness
+Threshold for discarding triangles based on steepness.
 
