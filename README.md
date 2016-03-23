@@ -25,7 +25,7 @@ The E and C keys can be used to change the zoom factor.
 Use the T key to toggle the display of a parameter editor.
 The left and right arrow keys walk through all available parameters.
 The up and down arrow keys change the value of the parameter.
-Hold shift to while pressing up and down to increase the stepsize.
+Hold shift while pressing up and down to increase the stepsize.
 
 ###Clip Radius
 Clips the scene when the distance to the center is larger than this value.
@@ -53,21 +53,21 @@ Automatically rotates the camera .
 
 For each Kinect in the scene there will be a parameter with the index of the camera appended:
 
-###LiveDepth#      
+###LiveDepth#     
 Toggles live depth updates.
 
-###LiveColor#       
+###LiveColor#     
 Toggles live color updates.
 
-###FilterDepth#   
+###FilterDepth# 
 Toggles depth filtering.
 
-###SpatialSigma#
+###SpatialSigma# 
 The spatial sigma for depth filtering.
 
-###IntensitySigma#
+###IntensitySigma# 
 The intensity for depth filtering.
 
-###DepthThreshold#
+###DepthThreshold# 
 Threshold for discarding triangles based on steepness.
 
