@@ -1,8 +1,3 @@
-# Holographic Studio
-
-This is the source code for my blog article "Build your own holographic studio with RoomAlive Toolkit"
-http://smeenk.com/build-your-own-holographic-studio/
-
 # Building the application
 The project depends on the ProEnsembleCalibrationLib that is part of RoomAlive Toolkit. https://github.com/Kinect/RoomAliveToolkit Download and build that project first and update the reference to that library.
 Both this project and RoomAliveToolkit reference SharpDX libraries. Make sure the used libraries reference the same version of these libs to prevent conflicts.
