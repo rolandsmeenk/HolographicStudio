@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/HolographicStudio/obj
+/HolographicStudio/bin
+/HolographicStudio/.vs/HolographicStudio/v14
+/.vs/HolographicStudio/v14
